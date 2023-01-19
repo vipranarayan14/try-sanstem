@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "try-sanstem"
+version = "0.1.0"
+description = "try sanstem pkg"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "try_sanstem"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sanstem = "^1.0.2"
+six = "^1.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
